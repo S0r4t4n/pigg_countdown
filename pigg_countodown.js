@@ -27,19 +27,10 @@ function showCountdown() {
    var dMin   = diff2Dates / ( 1000 * 60 );
    diff2Dates = diff2Dates % ( 1000 * 60 );
    var dSec   = diff2Dates / 1000;
-   var msg2 = Math.floor(dDays) + " 日 "
-            + Math.floor(dHour).toString(10).replace(/^[0-9]$/, "0$&") + " 時間 "
-            + Math.floor(dMin).toString(10).replace(/^[0-9]$/, "0$&") + " 分 "
-            + Math.floor(dSec).toString(10).replace(/^[0-9]$/, "0$&") + " 秒 ";
- 
-   var msg;
-   if( dnumTarget > dnumNow ) {
-      msg =  msg2 ;
-   }
-   else {
-      msg =  " - " + msg2 ;
-   }
-   document.getElementById("CountdownArea").innerHTML = msg;
+   
+   document.getElementById("day").innerHTML = Math.floor(dDays);
+   document.getElementById("hour").innerHTML = Math.floor(dHour).toString(10).replace(/^[0-9]$/, "0$&");
+   document.getElementById("min").innerHTML = Math.floor(dMin).toString(10).replace(/^[0-9]$/, "0$&");
+   document.getElementById("sec").innerHTML = Math.floor(dSec).toString(10).replace(/^[0-9]$/, "0$&");
 }
-
-setInterval('showCountdown()',1000);
+   setInterval(function(){showCountdown()},1000);
