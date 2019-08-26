@@ -7,7 +7,8 @@ amebapigg countdown
 ## Sample  
 ### Please paste in the corresponding place.
 * Setting  
-<img src="https://user-images.githubusercontent.com/8677536/63711408-52a8c880-c876-11e9-8100-6988b9c2f729.PNG">    
+<img src="https://user-images.githubusercontent.com/8677536/63711408-52a8c880-c876-11e9-8100-6988b9c2f729.PNG">  
+
 * Free-Space  
 
 ```html
