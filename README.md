@@ -4,7 +4,8 @@ amebapigg countdown
 ## Demo
 <img src="https://user-images.githubusercontent.com/8677536/63710521-4b80bb00-c874-11e9-9ee3-5c95dcb3886d.gif">  
 
-## Sample
+## Sample  
+### Please paste in the corresponding place.
 * Setting  
 <img src="https://user-images.githubusercontent.com/8677536/63711408-52a8c880-c876-11e9-8100-6988b9c2f729.PNG">    
 * Free-Space  
