@@ -177,7 +177,7 @@ li {
 
 * Free-Pulgin  
 
-```javascript
+```html
 <input autofocus onfocus="window.__isJSHook !== true &amp;&amp; (function() {
     function isNumOrZero(num) {
         if( isNaN(num) ) { return 0; }
